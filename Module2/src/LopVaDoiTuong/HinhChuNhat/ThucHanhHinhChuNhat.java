@@ -35,11 +35,9 @@ public class ThucHanhHinhChuNhat {
             double height = sc.nextDouble();
 
             Rectangle rect = new Rectangle(width, height);
-
             System.out.println("Dien tich hinh chu nhat: " + rect.getArea());
             System.out.println("Chu vi hinh chu nhat: " + rect.getPerimeter());
             System.out.println("Thong tin hinh chu nhat: " + rect.display());
-
             sc.close();
         }
     }

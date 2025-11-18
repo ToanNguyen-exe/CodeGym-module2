@@ -2,7 +2,7 @@ package KeThua.CircleAndCylinder;
 
 public class TestCircle {
     public static void main(String[] args) {
-        Circle c1 = new Circle();
+        Circle c1 = new Circle(3.5, "indigo", false);
         System.out.println(c1);
 
         Circle c2 = new Circle(2.5);

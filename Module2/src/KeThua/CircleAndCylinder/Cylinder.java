@@ -4,12 +4,12 @@ public class Cylinder extends Circle {
     private double height;
 
     public Cylinder() {
-        super();
+        super(3.5, "indigo", false);
         this.height = 1.0d;
     }
 
     public Cylinder(double height) {
-        super();
+        super(3.5, "indigo", false);
         this.height = height;
     }
 

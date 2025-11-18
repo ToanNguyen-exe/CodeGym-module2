@@ -4,7 +4,7 @@ public class Circle {
     private double radius;
     private String color;
 
-    public Circle() {
+    public Circle(double v, String indigo, boolean b) {
         this.radius = 1.0d;
         this.color = "red";
     }

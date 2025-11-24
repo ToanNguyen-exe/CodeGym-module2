@@ -3,6 +3,7 @@ package KeThua.HeCacDoiTuongHinhHoc;
 public class circle extends Shape {
     private double radius=1.0;
     public circle(){
+
     }
     public circle(double radius){
         this.radius=radius;

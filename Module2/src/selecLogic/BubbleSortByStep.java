@@ -1,5 +1,7 @@
 package selecLogic;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.Scanner;
 
 public class BubbleSortByStep {
@@ -21,7 +23,7 @@ public class BubbleSortByStep {
         bubbleSortByStep(arr);
     }
 
-    public static void bubbleSortByStep(int[] arr) {
+    public static void bubbleSortByStep(int @NotNull [] arr) {
         boolean needNextPass = true;
 
         for (int k = 1; k < arr.length && needNextPass; k++) {
@@ -47,6 +49,10 @@ public class BubbleSortByStep {
                 System.out.print(arr[j] + "\t");
             }
             System.out.println();
+        }
+        System.out.println("mảng đã được sắp xếp: ");
+        for (int value : arr) {
+            System.out.print(value + "\t");
         }
     }
 }

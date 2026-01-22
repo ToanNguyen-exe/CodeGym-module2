@@ -1,4 +1,4 @@
-package exceptionAndDebug;
+package BàiTap.exceptionAndDebug;
 
 import java.util.Scanner;
 

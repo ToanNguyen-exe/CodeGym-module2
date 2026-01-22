@@ -1,10 +1,10 @@
-package exceptionAndDebug.ArrayIndexOutOfBounds;
+package BàiTap.exceptionAndDebug.ArrayIndexOutOfBounds;
 
 import java.util.Scanner;
 
 class main {
-    public static void main(String[] args) {
-        arrayExample arrExample = new arrayExample();
+    static void main(String[] args) {
+        exceptionAndDebug.ArrayIndexOutOfBounds.arrayExample arrExample = new exceptionAndDebug.ArrayIndexOutOfBounds.arrayExample();
         Integer[] arr = arrExample.createRandom();
 
         Scanner scanner = new Scanner(System.in);

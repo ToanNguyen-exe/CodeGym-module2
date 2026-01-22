@@ -1,5 +1,7 @@
 package inherit.Triangle;
 
+import BàiTap.inherit.Triangle.Shape;
+
 public class Triangle extends Shape {
     private double side1;
     private double side2;

@@ -1,4 +1,4 @@
-package inherit.Triangle;
+package BàiTap.inherit.Triangle;
 
 public class Shape {
     private String color;
@@ -9,6 +9,9 @@ public class Shape {
 
     public Shape() {
         this.color = "white";
+    }
+
+    public Shape(String color, boolean filled) {
     }
 
     public String getColor() {

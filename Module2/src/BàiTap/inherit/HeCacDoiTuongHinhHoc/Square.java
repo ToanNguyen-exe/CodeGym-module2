@@ -1,15 +1,17 @@
 package inherit.HeCacDoiTuongHinhHoc;
 
+import java.awt.*;
+
 public class Square extends Rectangle {
     public Square() {
     }
 
     public Square(double side) {
-        super(side, side);
+        super((int) side, (int) side);
     }
 
     public Square(double side, String color, boolean filled) {
-        super(side, side, color, filled);
+        super();
     }
 
     public double getSide() {
@@ -25,7 +27,6 @@ public class Square extends Rectangle {
         setSide(width);
     }
 
-    @Override
     public void setLength(double length) {
         setSide(length);
     }

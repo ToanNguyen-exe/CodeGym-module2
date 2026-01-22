@@ -1,5 +1,7 @@
 package inherit.HeCacDoiTuongHinhHoc;
 
+import BàiTap.inherit.Triangle.Shape;
+
 public class circle extends Shape {
     private double radius=1.0;
     public circle(){

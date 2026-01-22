@@ -1,4 +1,6 @@
-package inherit.HeCacDoiTuongHinhHoc;
+package BàiTap.inherit.HeCacDoiTuongHinhHoc;
+
+import BàiTap.inherit.HeCacDoiTuongHinhHoc.Rectangle;
 
 public class RectangleTest {
     public static void main(String[] args) {

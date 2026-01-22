@@ -1,6 +1,7 @@
 package BàiTap.AbtractClassAndInterface.interfaceColorable;
 
-public class Rectangle extends Shape {
+
+class Rectangle extends inherit.HeCacDoiTuongHinhHoc.Shape {
     private double width;
     private double height;
 
@@ -19,3 +20,24 @@ public class Rectangle extends Shape {
 
     }
 }
+
+public class rectangle extends inherit.HeCacDoiTuongHinhHoc.Shape {
+    private double width;
+    private double height;
+
+    public rectangle(double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    @Override
+    public double getArea() {
+        return width * height;
+    }
+
+    @Override
+    public void howtoColor() {
+
+    }
+}
+

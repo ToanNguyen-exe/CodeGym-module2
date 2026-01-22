@@ -1,6 +1,6 @@
 package inherit.HeCacDoiTuongHinhHoc;
 
-public class Shape {
+public abstract class Shape {
     private String color = "green";
     private boolean filledd = true;
 
@@ -37,4 +37,8 @@ public class Shape {
                 + " and "
                 + ((isFilled()) ? "filled" : "not filled");
     }
+
+    public abstract double getArea();
+
+    public abstract void howtoColor();
 }

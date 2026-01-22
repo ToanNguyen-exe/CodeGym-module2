@@ -1,6 +1,6 @@
 package BàiTap.AbtractClassAndInterface.interfaceColorable;
 
-public class Square extends Shape implements Colorable {
+public class Square extends inherit.HeCacDoiTuongHinhHoc.Shape implements Colorable {
     private double side;
 
     public Square(double side) {

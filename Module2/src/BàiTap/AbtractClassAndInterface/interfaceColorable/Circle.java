@@ -1,6 +1,6 @@
 package BàiTap.AbtractClassAndInterface.interfaceColorable;
 
-public class Circle extends Shape {
+public class Circle extends inherit.HeCacDoiTuongHinhHoc.Shape {
     private double radius;
 
     public Circle(double radius) {
